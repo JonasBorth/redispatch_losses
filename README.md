@@ -40,7 +40,7 @@ Steps cannot be skipped, because each one depends on tables created by the previ
 
 ### 01 – Schemas
 
-[`12_create_scheme.sql`](01_create_scheme/12_create_scheme.sql) creates the `postgis`,
+[`11_create_scheme.sql`](01_create_scheme/11_create_scheme.sql) creates the `postgis`,
 `postgres_fdw` and `ogr_fdw` extensions and the `msr`, `redispatch`, `dwd` and `fdw_clc5`
 schemas. Run once against an empty database.
 
@@ -141,7 +141,7 @@ Create the database and run the schema script:
 
 ```bash
 createdb redispatch_losses
-psql -d redispatch_losses -f 01_create_scheme/12_create_scheme.sql
+psql -d redispatch_losses -f 01_create_scheme/11_create_scheme.sql
 ```
 
 The notebooks connect to `postgresql://postgres:postgres@localhost:5432/redispatch_losses`.
