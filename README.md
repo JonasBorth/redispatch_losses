@@ -1,6 +1,6 @@
 # redispatch_losses
 
-Estimating the energy lost to redispatch curtailment (§ 13a EnWG) of wind and solar plants in
+Estimating the energy lost to redispatch curtailment of wind and solar plants in
 the grid areas of three German distribution system operators.
 
 The pipeline combines plant master data from the German Market Master Data Register (MaStR)
