@@ -173,3 +173,11 @@ them are long-running and therefore set `statement_timeout = 0`.
   for.
 - The credentials in the notebooks are local defaults (`postgres`/`postgres`) and not real
   secrets.
+
+---
+
+## AI assistance
+
+Parts of the code in this repository were written with the help of AI coding assistants. Every
+generated section was reviewed, adapted and tested before being included. Responsibility for
+the methodology, the results and their interpretation lies entirely with the author.
